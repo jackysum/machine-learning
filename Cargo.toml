@@ -1,0 +1,15 @@
+[workspace]
+resolver = "3"
+members = []
+
+[workspace.package]
+authors = ["Jacky Sum <code@jsum.io>"]
+description = "Collection of Machine Learning models and utilities for Rust"
+edition = "2024"
+homepage = "https://github.com/jackysum/machine-learning"
+keywords = ["machine-learning"]
+readme = "README.md"
+categories = ["algorithms", "mathematics"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/jackysum/machine-learning"
+version = "0.0.0"
