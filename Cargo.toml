@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = []
+members = ["crates/mlrs-algorithm"]
 
 [workspace.package]
 authors = ["Jacky Sum <code@jsum.io>"]
@@ -13,3 +13,6 @@ categories = ["algorithms", "mathematics"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/jackysum/machine-learning"
 version = "0.0.0"
+
+[workspace.dependencies]
+csv = "1.3"
